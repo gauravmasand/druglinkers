@@ -1,9 +1,10 @@
 # DrugLinkers website
 
 A single-page static website for DrugLinkers (a working name), a scientific software
-company made in India. It presents the AI drug discovery platform in development
-(toxicity prediction first), PyChem-Pro, PyChem-Dock and the licensed molecular
-descriptor software.
+and drug discovery company made in India, focused on cancer, cardiovascular and other
+diseases. It presents the AI drug discovery platform in development (toxicity
+prediction first), PyChem-Pro, PyChem-Dock and the licensed molecular descriptor
+software.
 
 Live site: https://gauravmasand.github.io/druglinkers/
 
