@@ -5,6 +5,8 @@ company made in India. It presents the AI drug discovery platform in development
 (toxicity prediction first), PyChem-Pro, PyChem-Dock and the licensed molecular
 descriptor software.
 
+Live site: https://gauravmasand.github.io/druglinkers/
+
 Plain HTML, CSS and a few lines of JavaScript: no build step, no dependencies and no
 third-party requests, so it can be hosted free on GitHub Pages.
 
@@ -32,16 +34,13 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000. You can also open `index.html` directly.
 
-## Deploy to GitHub Pages
+## Deployment
 
-1. Push these files to a GitHub repository, with `index.html` at the root.
-2. Open **Settings → Pages**, choose **Deploy from a branch**, then select `main` and
-   `/ (root)`.
-3. The site appears at `https://<username>.github.io/<repository>/`. A custom domain
-   can be added on the same settings page.
+GitHub Pages publishes the site from the root of the `main` branch (**Settings →
+Pages**). Every push to `main` redeploys it, usually within a minute or two.
 
-After deploying, uncomment the `canonical`, `og:url` and `og:image` tags at the top
-of `index.html` and fill in the live URL.
+If the address changes (a custom domain or a renamed repository), update the
+`canonical`, `og:url` and `og:image` tags at the top of `index.html`.
 
 ## Editing
 
